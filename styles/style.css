@@ -4,3 +4,56 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.inicio {
+    background-color: #3a4a5a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 8%;
+    color: white;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 2rem;
+}
+
+.portada{
+    background-color: #4a5b6a;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5% 10%;
+}
+
+.texto{
+    width: 45%;
+}
+
+.texto h2 span{
+    color: white;
+    font-weight: bold;
+}
+
+.azul{
+    background-color: #3b8be3;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.link{
+    color: white;
+    text-decoration: underline;
+}
+
