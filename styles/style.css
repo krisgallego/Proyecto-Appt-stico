@@ -80,20 +80,73 @@ body {
     background-color: #3b8be3;
     color: white;
     border: none;
-    padding: 10px 30px;
+    padding: 20px 30px;
     border-radius: 30px; 
-    font-size: 20px;
-    font-weight: 500;
-    cursor: pointer;
+    font-size: 15px;
     text-decoration: none;
-    height: 25px;
+    height: 20px;
+
 }
 
 .boton .normal{
     color: white;
     border: none;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 13px;
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(240, 240, 240);
+    height: 100px;
+}
+
+.funciones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    gap: 50px;
+    padding: 20px;
+}
+
+.funciones .funcion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+}
+
+.funcion h2{
+    font-size: 24px;
+    color: rgba(43, 75, 107, 0.878);
+    margin-top: 15px;
+}
+
+.funcion p{
+    font-size: 15px;
+    color: rgb(116, 110, 110);
+    margin-top: 10px;
+    width: 300px;
+    
+}
+
+.funcion a{
+    background-color: #3b8be3;
+    color: white;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 10px; 
+    font-size: 15px;
+    text-decoration: none;
+    height: 20px;
 }
 
