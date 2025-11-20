@@ -150,3 +150,75 @@ body {
     height: 20px;
 }
 
+.celulares{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 600px;
+    gap: -17px;
+}
+
+.lados{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    gap: 50px;
+    padding: 20px;
+}
+
+.informacion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.parrafo{
+    display: flex;
+    flex-direction: column;
+}
+
+.parrafo p{
+    font-size: 16px;
+    color: rgb(116, 110, 110);
+    margin-top: 10px;
+    width: 450px;
+    font-weight: bolder;
+}
+
+.lado a .derecho a{
+    background-color: #3b8be3;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.lado{
+    height: 70%;
+}
+
+.derecho{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    height: 70px;
+    margin-right: 50px;
+}
+
+.derecho p{
+    font-size: 16px;
+    color: rgb(116, 110, 110);
+    margin-top: -10px;
+    width: 450px;
+    font-weight: bolder;
+}
+
+.derecho h3{
+    font-size: 13px;
+    color: rgb(116, 110, 110);
+    margin-top: -7px;
+}
+
