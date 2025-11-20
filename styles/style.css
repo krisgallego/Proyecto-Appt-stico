@@ -222,3 +222,28 @@ body {
     margin-top: -7px;
 }
 
+hr{
+    border: 1px solid rgb(116, 110, 110);
+    width: 100%;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    gap: 20px;
+}
+
+.nombre{
+    font-size: 16px;
+    color: rgb(116, 110, 110);
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
